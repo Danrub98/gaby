@@ -10,7 +10,7 @@ a{
     display: flex;
       justify-items: right ;
       text-align: right;
-      margin-left: 400px;
+      justify-content: space-evenly;
       color: white;
 
       
@@ -55,6 +55,10 @@ a{
     width: 40%;
 }
 
+.img2{
+    width: 80%;
+}
+
 .h3{
     display: inline;
 }
@@ -70,8 +74,8 @@ a{
 .collageContainer{
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .h2Text{
@@ -183,7 +187,7 @@ p{
 
 .pensamientos{
     text-align: center;
-    margin: 0 200px;
+    margin: 0 10%;
 }
 
 .pStyle{
